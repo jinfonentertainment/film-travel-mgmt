@@ -2,13 +2,11 @@
   "version": "0.2.0",
   "configurations": [
     {
-      "name": "Dev Server Only",
-      "type": "node",
+      "name": "Start Dev Server",
+      "type": "node-terminal",
       "request": "launch",
-      "runtimeExecutable": "npm",
-      "runtimeArgs": ["run", "dev"],
-      "cwd": "${workspaceFolder}",
-      "console": "integratedTerminal"
+      "command": "npm run dev",
+      "cwd": "${workspaceFolder}"
     }
   ]
 }
